@@ -14,7 +14,6 @@
   end
 
 #checks to see if the position is already taken and if it's an actual number
-
   def valid_move?(board, index)
     def position_taken?(array, ind)
       if array[ind] == " " || array[ind] == "" || array[ind] == nil
